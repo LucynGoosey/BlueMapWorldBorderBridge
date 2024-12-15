@@ -12,14 +12,10 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Optional;
 import java.util.Properties;
 
 public final class BlueMapWorldBorderBridge extends JavaPlugin {
-
-
-    private Border border;
 
     @Override
     public void onEnable() {
