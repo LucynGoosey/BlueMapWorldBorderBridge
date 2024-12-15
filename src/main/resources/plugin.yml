@@ -1,0 +1,5 @@
+name: BlueMapWorldBorderBridge
+version: '1.0'
+main: me.lucyn.blueMapWorldBorderBridge.BlueMapWorldBorderBridge
+api-version: '1.21'
+description: The classes ability system for the Fourth Realm Project
