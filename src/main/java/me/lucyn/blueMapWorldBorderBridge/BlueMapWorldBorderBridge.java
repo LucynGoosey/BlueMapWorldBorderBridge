@@ -47,6 +47,7 @@ public final class BlueMapWorldBorderBridge extends JavaPlugin {
         String name = props.getProperty("level-name");
 
 
+        Border border = new Border(wbConfig.getConfigurationSection("worlds").getConfigurationSection(name).getInt("border_size"), wbConfig.getConfigurationSection("worlds").getConfigurationSection(name).getInt("center_x"), wbConfig.getConfigurationSection("worlds").getConfigurationSection(name).getInt("center_z"));
 
 
         Shape borderShape = Shape.createRect(border.x1, border.z1, border.x2, border.z2);
